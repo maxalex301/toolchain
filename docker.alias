@@ -1,0 +1,17 @@
+alias dp="docker ps"
+alias dpa="docker ps -a"
+alias dpg="docker ps | grep"
+
+alias ddf="docker system df"
+alias ddfv="ddf -v"
+alias dclean="docker system prune"
+alias dvacuum="dclean --volumes -f"
+
+#
+# Docker-compose
+#
+alias dc="docker-compose"
+alias dcup="dc up"
+alias dcupd="dc up -d"
+alias dcdn="dc down"
+alias dcpull="dc pull"
